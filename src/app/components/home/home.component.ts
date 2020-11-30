@@ -44,6 +44,7 @@ export class HomeComponent implements OnInit {
     }
   
     ngOnInit(): void {
+      console.log("sono home");
       this.getDati();
       this.getDatiReg();
       this.getDatiProv();
